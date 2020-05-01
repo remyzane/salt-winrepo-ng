@@ -3,8 +3,8 @@ node.js-lts:
   '{{ version }}':
     full_name: 'Node.js'
     {% if grains['cpuarch'] == 'AMD64' %}
-    installer: 'http://47.96.38.56:88/node-v{{ version }}-x64.msi'
-    uninstaller: 'http://47.96.38.56:88/node-v{{ version }}-x64.msi'
+    installer: 'http://47.96.38.56:88/salt_win/node-v{{ version }}-x64.msi'
+    uninstaller: 'http://47.96.38.56:88/salt_win/node-v{{ version }}-x64.msi'
     {% else %}
     installer: 'https://nodejs.org/dist/v{{ version }}/node-v{{ version }}-x86.msi'
     uninstaller: 'https://nodejs.org/dist/v{{ version }}/node-v{{ version }}-x86.msi'
