@@ -1,4 +1,3 @@
-
 python3_x64:
   '3.7.7':
     full_name: 'Python 3.7.7 Core Interpreter (64-bit)'
